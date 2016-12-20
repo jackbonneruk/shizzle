@@ -24,6 +24,6 @@ $large: 500px;
     height: 500px;
     @include breakpoint ($large) {
         height: 800px;
-        background-color: red;
+        background-color: green;
     }
 }
