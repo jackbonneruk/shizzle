@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "description": "test",
+  "main": "index.js",
+  "authors": [
+    "jack bonner"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
