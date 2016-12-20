@@ -8,13 +8,36 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 66.6666666667%;
+  width: 66.66667%;
   float: left;
-  padding-left: 0.8333333333%;
-  padding-right: 0.8333333333%;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
   background-color: dodgerblue;
-  height: 500px; }
-  @media (min-width: 500px) {
-    .module-width {
-      height: 800px;
-      background-color: green; } }
+  height: 95vh;
+}
+
+@media (min-width: 320px) {
+  .module-width {
+    background-color: green;
+  }
+}
+
+@media (min-width: 500px) {
+  .module-width {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 720px) {
+  .module-width {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 1200px) {
+  .module-width {
+    background-color: yellowgreen;
+  }
+}
+
+/*# sourceMappingURL=screen.css.map */
